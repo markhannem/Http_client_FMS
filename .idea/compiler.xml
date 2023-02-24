@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FlightManagementSystem" />
+        <module name="Http_client_FMS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FlightManagementSystem" options="-parameters" />
+      <module name="Http_client_FMS" options="-parameters" />
     </option>
   </component>
 </project>
